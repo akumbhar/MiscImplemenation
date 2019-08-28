@@ -1,0 +1,6 @@
+Single if Kotlin way 
+if (method == APIRequestMethod.POST) Method.POST else Method.GET
+
+
+Kotlin list is null or empty check cab be done by 
+deviceList.isNullOrEmpty()
