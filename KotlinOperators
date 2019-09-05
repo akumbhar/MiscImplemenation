@@ -4,3 +4,17 @@ if (method == APIRequestMethod.POST) Method.POST else Method.GET
 
 Kotlin list is null or empty check cab be done by 
 deviceList.isNullOrEmpty()
+
+
+if(txtTemperature.text.toString().toInt() <= minTemp){
+     imgTemperatureDown.isEnabled = false
+}else{
+     imgTemperatureDown.isEnabled = true
+}
+
+above code is converted to kotlin way
+
+imgTemperatureDown.isEnabled = txtTemperature.text.toString().toInt() > minTemp
+
+        
+        
