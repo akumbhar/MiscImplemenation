@@ -1,6 +1,3 @@
-package com.psi.residentportal.modules.homeautomation.rotation
-
-
 import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.app.Service
