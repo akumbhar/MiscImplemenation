@@ -1,0 +1,6 @@
+// to exlude duplicate libraries
+ implementation files('libs/stratissdk-external-release.aar'){
+        configurations {
+            compile.exclude module: 'gson'
+        }
+    }
